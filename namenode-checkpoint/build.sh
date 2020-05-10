@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t uhopper/hadoop-namenode-checkpoint .
+docker build -t mpontillo/hadoop-namenode-checkpoint .

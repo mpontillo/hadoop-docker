@@ -1,8 +1,8 @@
-FROM uhopper/hadoop:2.8.1
+FROM mpontillo/hadoop:2.8.1
 
 ENV SPARK_VERSION 2.1.2
 
-ENV SPARK_BIN_URL https://www.apache.org/dist/spark/spark-$SPARK_VERSION/spark-$SPARK_VERSION-bin-without-hadoop.tgz
+ENV SPARK_BIN_URL https://archive.apache.org/dist/spark/spark-$SPARK_VERSION/spark-$SPARK_VERSION-bin-without-hadoop.tgz
 
 ENV SPARK_HOME=/opt/spark-$SPARK_VERSION
 

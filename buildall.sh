@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -e
 
 for i in hadoop namenode datanode resourcemanager nodemanager historyserver spark; do
     echo Building $i

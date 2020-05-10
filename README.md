@@ -1,6 +1,11 @@
 # Hadoop Docker
 
 This repository contains *Dockerfile*s for setting up a basic Hadoop cluster.
+
+This is derived from the [uhopper/hadoop-docker](https://bitbucket.org/uhopper/hadoop-docker/)
+repository, and incorporates a `docker-compose` file that was found on
+[this blog post](https://devops.datenkollektiv.de/apache-hadoop-setting-up-a-local-test-environment.html).
+
 The available components are:
 
 1. *HDFS*:
